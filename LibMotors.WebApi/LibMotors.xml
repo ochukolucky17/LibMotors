@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibMotors.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:LibMotors.WebApi.Controllers.v1.EmployeesController.Create(LibMotors.Application.Features.EmployeesFeatures.Commands.CreateEmployeesCommand)">
+            <summary>
+            Creates a New Employees.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.EmployeesController.GetAll">
+            <summary>
+            Gets all Employeers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.EmployeesController.GetById(System.Int32)">
+            <summary>
+            Gets Employees Entity by Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.EmployeesController.Delete(System.Int32)">
+            <summary>
+            Deletes Product Entity based on Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.EmployeesController.Update(System.Int32,LibMotors.Application.Features.EmployeesFeatures.Commands.UpdateEmployeesCommand)">
+            <summary>
+            Updates the Employeers Entity based on Id.   
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.InventoryItemController.Create(LibMotors.Application.Features.InventoryItemFeatures.Commands.CreateInventoryItemCommand)">
+            <summary>
+            Creates a New InventoryItem.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.InventoryItemController.GetAll">
+            <summary>
+            Gets all InventoryItems.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.InventoryItemController.GetById(System.Int32)">
+            <summary>
+            Gets InventoryItem Entity by Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.InventoryItemController.Delete(System.Int32)">
+            <summary>
+            Deletes BankAccount Entity based on Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.InventoryItemController.Update(System.Int32,LibMotors.Application.Features.InventoryItemFeatures.Commands.UpdateInventoryItemCommand)">
+            <summary>
+            Updates the InventoryItem Entity based on Id.   
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.WarehouseController.Create(LibMotors.Application.Features.WarehouseFeatures.Commands.CreateStockCommand)">
+            <summary>
+            Creates a New stock.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.WarehouseController.GetAll">
+            <summary>
+            Gets all Stock.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.WarehouseController.GetById(System.Int32)">
+            <summary>
+            Gets stock Entity by Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.WarehouseController.Delete(System.Int32)">
+            <summary>
+            Deletes stock Entity based on Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibMotors.WebApi.Controllers.v1.WarehouseController.Update(System.Int32,LibMotors.Application.Features.WarehouseFeatures.Commands.UpdateStockCommand)">
+            <summary>
+            Updates the stock Entity based on Id.   
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
